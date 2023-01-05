@@ -7,6 +7,7 @@ import { createVuetify } from "vuetify";
 const vuetify = createVuetify({
 	components,
 	directives,
+	theme: { defaultTheme: "dark" },
 });
 
 export default vuetify;

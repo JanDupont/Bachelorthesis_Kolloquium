@@ -8,6 +8,6 @@ background: ./img/cover.png
 Verbesserte Kollaboration durch Teamfunktionen im Kontext  
 einer gruppenorientierten semantischen Modellierung
 
-von Jan Dupont
+von Jan Michael Dupont
 
 <DalleDisclaimer position="right" />
