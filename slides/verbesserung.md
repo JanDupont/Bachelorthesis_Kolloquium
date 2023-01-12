@@ -1,1 +1,0 @@
-# Verbesserung durch Teamfunktionen

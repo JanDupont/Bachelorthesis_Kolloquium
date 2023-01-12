@@ -1,6 +1,6 @@
 ---
 layout: cover
-background: ./img/cover.png
+background: /img/cover.png
 ---
 
 # Kolloquium B.Sc. Medieninformatik

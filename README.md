@@ -3,10 +3,12 @@
 ## Todo:
 
 -   [ ] Bilder (Dall-E)
--   [ ] Problemstellung
--   [ ] Verbesserung durch Teamfunktionen
+-   [x] Problemstellung
+-   [x] Teamfunktionen
 -   [ ] Demonstration
--   [ ] Implementierung
+-   [x] Implementierung Allgemein
+-   [ ] Implementierung Frontend
+-   [ ] Implementierung Backend
 -   [ ] Fazit
 
 Verbesserte Kollaboration durch Teamfunktionen im Kontext einer gruppenorientierten semantischen Modellierung.

@@ -32,7 +32,7 @@
             Engineer
         </v-card-title>
         <v-card-text style="text-align: center; font-size: 11px">
-            <img src="public/img/notitia-engineer-cube.svg">
+            <img src="/img/notitia-engineer-cube.svg">
             Informationsmodell modellieren
         </v-card-text>
     </v-card>
@@ -41,7 +41,7 @@
             Designer
         </v-card-title>
         <v-card-text style="text-align: center; font-size: 11px">
-            <img src="public/img/notitia-designer-cube.svg">
+            <img src="/img/notitia-designer-cube.svg">
             Prozessabläufe definieren
         </v-card-text>
     </v-card>
@@ -50,7 +50,7 @@
             Operator
         </v-card-title>
         <v-card-text style="text-align: center; font-size: 11px">
-            <img src="public/img/notitia-operator-cube.svg">
+            <img src="/img/notitia-operator-cube.svg">
             Prozesse instanziieren
         </v-card-text>
     </v-card>

@@ -29,9 +29,13 @@ src: slides/problemstellung.md
 ---
 
 ---
-src: slides/verbesserung.md
+src: slides/teamfunktionen.md
 ---
 
 ---
 src: slides/demonstration.md
+---
+
+---
+src: slides/implementierung.md
 ---
