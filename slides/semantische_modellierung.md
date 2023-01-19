@@ -8,9 +8,13 @@ layout: two-cols
 
 Modellierung
 
-Bild
+<a  href="https://commons.wikimedia.org/wiki/File:NFDI4Culture_-_Consortium_for_research_data_on_material_and_immaterial_cultural_heritage_-_Fig._6.png"><img src="/img/Semantisches_Modell.png" style="height: 200px"></a>
+
+<br/>
 
 <v-click>
+
+<br/>
 
 ### Ziel der Modellierung
 
@@ -32,9 +36,13 @@ Bild
 
 Modellierung
 
-Bild
+<a href="https://commons.wikimedia.org/wiki/File:ER_Diagram_MMORPG.png"><img src="/img/ER_Modell.png"  style="height: 200px"></a>
+
+<br/>
 
 <v-click>
+
+<br/>
 
 ### Ziel der Modellierung
 

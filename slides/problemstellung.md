@@ -27,7 +27,9 @@ blockquote {
 </style>
 
 ::right::
-Dall-E Bild
+
+<img src="/img/Problemstellung.png" style="height: 95%"/>
+<DalleDisclaimer position="right" />
 
 <!--
 - Zusammenarbeit von Fachleuten aus verschiedenen Personengruppen

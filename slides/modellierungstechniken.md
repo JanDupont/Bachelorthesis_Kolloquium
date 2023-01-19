@@ -8,7 +8,7 @@ layout: two-cols
 
 Modellierung
 
-Bild
+<img src="/img/Grafische_Modellierung.png" style="height: 180px" />
 
 <v-click>
 

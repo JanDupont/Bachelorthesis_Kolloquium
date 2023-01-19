@@ -39,3 +39,27 @@ src: slides/demonstration.md
 ---
 src: slides/implementierung.md
 ---
+
+---
+src: slides/implementierung_frontend.md
+---
+
+---
+src: slides/implementierung_frontend_2.md
+---
+
+---
+src: slides/implementierung_frontend_3.md
+---
+
+---
+src: slides/implementierung_frontend_4.md
+---
+
+---
+src: slides/implementierung_frontend_5.md
+---
+
+---
+src: slides/implementierung_backend.md
+---
