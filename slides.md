@@ -13,15 +13,19 @@ src: slides/overview.md
 ---
 
 ---
+src: slides/notitia.md
+---
+
+---
+src: slides/Engineer.md
+---
+
+---
 src: slides/semantische_modellierung.md
 ---
 
 ---
-src: slides/modellierungstechniken.md
----
-
----
-src: slides/notitia.md
+src: slides/Prozess_semantisches_Datenmodell.md
 ---
 
 ---
@@ -41,7 +45,7 @@ src: slides/implementierung.md
 ---
 
 ---
-src: slides/implementierung_frontend.md
+src: slides/implementierung_frontend_1.md
 ---
 
 ---
@@ -50,14 +54,6 @@ src: slides/implementierung_frontend_2.md
 
 ---
 src: slides/implementierung_frontend_3.md
----
-
----
-src: slides/implementierung_frontend_4.md
----
-
----
-src: slides/implementierung_frontend_5.md
 ---
 
 ---

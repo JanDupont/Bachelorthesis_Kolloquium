@@ -2,9 +2,8 @@
 
 <v-clicks>
 
--   Verschiedene Ansätze: Semantische Modellierung vs "Physische/Logische" Modellierung
--   Modellierungstechniken: graphische Modellierung vs strukturierte Modellierung
 -   Notitia
+-   Gruppenorientierte semantische Modellierung
 -   Problemstellung
 -   Teamfunktionen
 -   Demonstration

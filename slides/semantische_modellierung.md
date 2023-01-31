@@ -1,64 +1,59 @@
 ---
-layout: two-cols
+layout: two-cols-header
 ---
 
-::default::
+# Semantische Modellierung
 
-# Semantische
+::left::
 
-Modellierung
+### Grapfisch
 
-<a  href="https://commons.wikimedia.org/wiki/File:NFDI4Culture_-_Consortium_for_research_data_on_material_and_immaterial_cultural_heritage_-_Fig._6.png"><img src="/img/Semantisches_Modell.png" style="height: 200px"></a>
-
-<br/>
-
-<v-click>
+-   einfache Bedienbarkeit
+-   schnelle Bedienbarkeit
 
 <br/>
+<br/>
 
-### Ziel der Modellierung
+> -->
+>
+> -   Grafiken
+> -   Mindmaps
 
--   Semantisches Datenmodell
+<br/>
+<br/>
 
-</v-click>
+#### Resultat
 
-<v-click>
-
-### technische Ausarbeitung
-
--   Ontologien
-
-</v-click>
+-   rein graphisch
+-   nicht maschinell interpretierbar
 
 ::right::
 
-# "Physische/Logische"
+### Strukturiert
 
-Modellierung
+-   aufwendige Bedienbarkeit
+-   komplex
+-   fehleranfällig
 
-<a href="https://commons.wikimedia.org/wiki/File:ER_Diagram_MMORPG.png"><img src="/img/ER_Modell.png"  style="height: 200px"></a>
+> -->
+>
+> -   UML
+> -   BPMN
+> -   ER-Modell
 
 <br/>
 
-<v-click>
+#### Resultat
 
-<br/>
+-   strukturiertes Datenmodell
+-   maschinell interpretierbar
 
-### Ziel der Modellierung
+<style>
+blockquote {
+  max-width: 90%
+}
 
--   UML
--   BPMN
--   ER-Modell
-
-</v-click>
-
-<v-click>
-
-### technische Ausarbeitung
-
--   relationelle Datenbanken
-
-</v-click>
+</style>
 <!--
 ### Vergleich
 - Beides nicht vollständig voneinander trennbar

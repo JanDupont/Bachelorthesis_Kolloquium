@@ -12,17 +12,30 @@
     }
 </style>
 
-```ts {all|1|4-10}
-export function useSocket(host: string, basePath: string) {
-	// WebSocket Setup ...
-	return {
-		participants: (domainId: string, workspaceId: string) => useParticipants(ws, domainId, workspaceId, listeners),
-		participantsPointers: (domainId: string, workspaceId: string) =>
-			useParticipantsPointers(ws, domainId, workspaceId, listeners),
-		editors: (domainId: string, workspaceId: string) => useEditors(ws, domainId, workspaceId, listeners),
-		followMe: (domainId: string, workspaceId: string) => useFollowMe(ws, domainId, workspaceId, listeners),
-		laserpointer: (domainId: string, workspaceId: string) => useLaserpointer(ws, domainId, workspaceId, listeners),
-		pushNotifications: () => usePushNotifications(ws),
-	};
-}
+```ts {all|1,3|5|7|9-15|17-19|21-24|25-27} {maxHeight:'350px'}
+import * as teamlyClient from "teamly/client";
+
+let teamlySocket = new teamlyClient.Socket();
+
+teamlySocket.initialize(domainId, workspaceId).register(userId);
+
+teamlySocket.ParticipantPointers(domainId, workspaceId).register(userId);
+
+let payload = {
+	x: 0,
+	y: 0,
+	color: "red",
+	userId: userId,
+};
+teamlySocket.ParticipantPointers(domainId, workspaceId).send(payload);
+
+teamlySocket.ParticipantPointers(domainId, workspaceId).on((data: any) => {
+	// ... do something with data
+});
+
+teamlySocket.ParticipantPointers(domainId, workspaceId).off((data: any) => {
+	// ... do something with data
+});
+
+teamlySocket.ParticipantPointers(domainId, workspaceId).unregister(userId);
 ```

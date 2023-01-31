@@ -14,19 +14,26 @@
 
 <v-clicks>
 
-```ts {all|7|11}
-import { useSocket } from "../socket/index.client";
+```ts {all|8|10,11,13,15,17} {maxHeight:'350px'}
+export class Socket {
+	// private socket Variables ...
 
-const protocol = window.location.protocol == "http:" ? "ws" : "wss";
-const socketUrl = `${protocol}://${window.location.host}`;
-const s = useSocket(socketUrl, "/api/v1.0");
+	constructor() {
+		// init socket
+	}
 
-export function api(config: { host: string; basePath: string } = { host: "", basePath: "/api/v1.0" }) {
-	const h = config.host;
-	const bp = config.basePath;
-	return {
-		socket: () => s,
-	};
+	private ParticipantPointers(domainId: string, instanceId: string) {
+		return {
+			register: (userId: string) => this.register(Category.ParticipantsPointers, domainId, instanceId, userId),
+			unregister: (userId: string) =>
+				this.unregister(Category.ParticipantsPointers, domainId, instanceId, userId),
+			on: (callback: (payload: any) => void) =>
+				this.on(Category.ParticipantsPointers, domainId, instanceId, callback),
+			off: (callback: (payload: any) => void) =>
+				this.off(Category.ParticipantsPointers, domainId, instanceId, callback),
+			send: (payload: any) => this.send(Category.ParticipantsPointers, domainId, instanceId, payload),
+		};
+	}
 }
 ```
 
