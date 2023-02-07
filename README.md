@@ -1,10 +1,8 @@
 # Presentation for Bachelorthesis Kolloquium
 
-## Todo:
+## Präsentation
 
--   [x] Kernbotschaft (Teamfunktionen)
-
--   [x] Bilder (Dall-E)
+Mac: option + F1, dann projektor gedrückt halten und Präsentationsmodus auswählen
 
 ### Einleitung
 
