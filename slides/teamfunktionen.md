@@ -62,6 +62,7 @@ clicks: 10
   <img src="/img/teamfunktionen/Laserpointer.png" >
 </div>
 <div class="imgContainer" v-if="$slidev.nav.clicks === 10">
+  <img src="/img/teamfunktionen/PushNotifications.png" >
 </div>
 
 <style>

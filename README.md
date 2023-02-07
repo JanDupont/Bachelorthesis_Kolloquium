@@ -2,11 +2,9 @@
 
 ## Todo:
 
--   [ ] Kernbotschaft
+-   [x] Kernbotschaft (Teamfunktionen)
 
--   [ ] Forschungsfrage
-
--   [ ] Bilder (Dall-E)
+-   [x] Bilder (Dall-E)
 
 ### Einleitung
 
@@ -17,7 +15,7 @@
 ### Hauptteil
 
 -   [x] Teamfunktionen
--   [ ] Demonstration
+-   [x] Demonstration
 -   [x] Implementierung Allgemein
 -   [x] Implementierung Frontend
 -   [x] Implementierung Backend (zu viel)
