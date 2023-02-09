@@ -59,3 +59,7 @@ src: slides/implementierung_frontend_3.md
 ---
 src: slides/implementierung_backend.md
 ---
+
+---
+src: slides/fazit.md
+---

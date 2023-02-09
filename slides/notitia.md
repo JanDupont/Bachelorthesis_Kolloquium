@@ -1,22 +1,15 @@
 # Notitia
 
-<v-click>
-
--   Symbolische KI
-
-</v-click>
-
-<v-click>
-
--   Ansatz: Semantische Modellierung mit Ontologie als Persistenzschicht
-
-</v-click>
-
-<v-click>
-
--   Modellierungstechnik: Vereint graphische Modellierung mit ausdrucksmächtiger strukturierter Modellierung
-
-</v-click>
+<v-clicks>
+    <ul>
+        <li>Wissensintensive Prozesse</li>
+        <li>Symbolische KI</li>
+        <li>Ansatz: Semantische Modellierung mit Ontologie als Persistenzschicht</li>
+        <li>Methodik: Vereint <span class='red'>graphische Modellierung</span>
+         mit ausdrucksmächtiger <span class='blue'>strukturierter Modellierung</span>
+        </li>
+    </ul>
+</v-clicks>
 
 <v-click>
 
@@ -55,3 +48,24 @@
         </v-card-text>
     </v-card>
 </div>
+
+<style>
+    .red {
+        color: #f44336;
+    }
+    .blue {
+        color: #2196f3;
+    }
+</style>
+
+<!--
+## Wissensintensive Prozesse:
+- Sind flexibel/ können sich verändern
+- können nicht optimal durch z.B. BPMN/Wasserfalldiagramme modelliert werden
+
+## Symbolische KI:
+- System erfüllt eine vorgegebene Aufgabe mit Hilfe von logischen Schlussfolgerungen
+
+## Semantische Modellierung:
+- formale Beschreibung und Darstellung eines Ausschnittes der in einem bestimmten Zusammenhang „wahrgenommenen Welt“.
+-->

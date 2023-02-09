@@ -22,7 +22,7 @@ export class Socket {
 		// init socket
 	}
 
-	private ParticipantPointers(domainId: string, instanceId: string) {
+	ParticipantPointers(domainId: string, instanceId: string) {
 		return {
 			register: (userId: string) => this.register(Category.ParticipantsPointers, domainId, instanceId, userId),
 			unregister: (userId: string) =>

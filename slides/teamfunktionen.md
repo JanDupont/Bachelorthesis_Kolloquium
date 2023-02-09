@@ -78,3 +78,10 @@ clicks: 10
         margin: 0 2.5%;
     }
 </style>
+
+<!--
+## Groupware Avatar Komponente
+
+## Participant Pointers
+- ambiente Wahrnehmung von Zusammenarbeit
+-->
