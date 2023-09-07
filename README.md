@@ -20,8 +20,8 @@ Mac: option + F1, dann projektor gedrückt halten und Präsentationsmodus auswä
 
 ### Schluss
 
--   [ ] Fazit
--   [ ] Ausblick (Weitere Teamfunktionen, Teamly-Service (Eingenständiger server), ... (in bachelorarbeit nachsehen was noch alles) )
+-   [x] Fazit
+-   [x] Ausblick (Weitere Teamfunktionen, Teamly-Service (Eingenständiger server), ... (in bachelorarbeit nachsehen was noch alles) )
 
 Verbesserte Kollaboration durch Teamfunktionen im Kontext einer gruppenorientierten semantischen Modellierung.
 
